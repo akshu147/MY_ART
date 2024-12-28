@@ -100,11 +100,10 @@ const Login = () => {
             <div className='flex justify-end'>  <div className='text-right m-[20px_0px] cursor-pointer hover:text-blue-500 inline-block' onClick={onforgetdiv}><small>{(whenForget)?"Forget Password":"Already have a account"}</small></div>
             </div>
 
-            {/* <div className="border">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, magni?</p>
-            </div> */}
+           
             <div style={{ display: (whenForget) ? "block" : "none" }} className='rounded-[40px] text-center border p-[6px_10px] cursor-pointer hover:shadow-[]'>Login</div>
             <div style={{ display: (whenForget) ? "none" : "block" }} className='rounded-[40px] text-center border p-[6px_10px] cursor-pointer hover:shadow-[]'>Submit</div>
+            
 
 
           </form>
