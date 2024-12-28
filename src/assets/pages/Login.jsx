@@ -104,7 +104,8 @@ const Login = () => {
             <div style={{ display: (whenForget) ? "block" : "none" }} className='rounded-[40px] text-center border p-[6px_10px] cursor-pointer hover:shadow-[]'>Login</div>
             <div style={{ display: (whenForget) ? "none" : "block" }} className='rounded-[40px] text-center border p-[6px_10px] cursor-pointer hover:shadow-[]'>Submit</div>
             
-
+   
+   
 
           </form>
 
